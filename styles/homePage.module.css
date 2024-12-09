@@ -1,0 +1,20 @@
+.outerContainer {
+    background-image: url("../public/images/carousel-background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.customHr {
+    position: relative;
+    height: 1px;
+    border: none;
+    background: linear-gradient(to right, #2d2d2d, #f4f4e9, #2d2d2d);
+    margin: 20px 0;
+    width: 100%;
+}
+
+.carouselContainer {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
