@@ -4,7 +4,7 @@
 
 .heading {
     font-family: Inter;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-top: 0;
     text-align: left;
@@ -14,10 +14,61 @@
 
 .subHeading {
     font-family: Inter;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     text-align: left;
     margin-top: 0;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+
+.boxParent {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 7px;
+    padding: 4.5% 7%;
+    border-left: 1.8px solid #2d2d2d;
+    border-right: 1.8px solid #2d2d2d;
+    overflow: auto;
+}
+
+.boxParent::before,
+.boxParent::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(to right, #2d2d2d, #f4f4e9, #2d2d2d);
+}
+
+.boxParent::before {
+    top: 0;
+}
+
+.boxParent::after {
+    bottom: 0;
+}
+
+.box {
+    font-size: 0.9rem;
+    position: relative;
+    width: 10rem;
+}
+
+.boxContainer {
+    background-color: rgba(245, 245, 245, 0.1);
+    width: 10rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.gridContainer2Col {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-gap: 5%;
+    justify-content: left;
+    align-items: center;
 }

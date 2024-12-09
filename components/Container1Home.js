@@ -1,7 +1,9 @@
 import React from "react";
 import { Col, Row, Button } from "antd";
+import { ArrowRightOutlined } from "@ant-design/icons";
 import Image from "next/image";
 import container1Css from "../styles/container1.module.css";
+import "../styles/antd-overides.css";
 
 const contentStyle = {
     color: "#fff",
@@ -19,21 +21,29 @@ export default function Container1Home() {
                 <Col span={10}>
                     <div style={contentStyle}>
                         <h1 className={container1Css.heading}>
-                            Building Tomorrow's Data Universe Today
+                            Building Tomorrow&#39;s Data Universe Today
                         </h1>
                         <p className={container1Css.subHeading}>
                             The All-in-One Platform for Data Engineering,
                             Analytics & Modernization
                         </p>
-                        <Button
-                            className="custom-primary-button"
-                            type="primary"
-                        >
-                            Read More
-                        </Button>
-                        <Button ghost color="default" variant="outlined">
-                            Book a Demo
-                        </Button>
+                        <div className={container1Css.gridContainer2Col}>
+                            <div>
+                                <Button
+                                    className="custom-primary-button"
+                                    type="primary"
+                                >
+                                    Read More <ArrowRightOutlined />
+                                </Button>
+                            </div>
+                            <div className={container1Css.boxContainer}>
+                                <div className={container1Css.boxParent}>
+                                    <div className={container1Css.box}>
+                                        Book a Demo
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </Col>
                 <Col span={8} offset={4}>

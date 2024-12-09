@@ -1,52 +1,90 @@
 import Image from "next/image";
 import React from "react";
-import { Col, Row, Button } from "antd";
+import { Button, ConfigProvider } from "antd";
 import navbarCss from "../styles/navbar.module.css";
+import { Menu } from "antd";
 import "../styles/antd-overides.css";
 
 export default function Navbar() {
+    const logo = [
+        {
+            key: "logo",
+            label: (
+                <Image
+                    src="/images/nuodata-logo.png"
+                    alt="nuodata-logo"
+                    height={40}
+                    width={170}
+                    className={navbarCss.logoImage}
+                />
+            ),
+            className: navbarCss.logoMenuItem,
+        },
+    ];
+
+    const items = [
+        {
+            key: "sub1",
+            label: <p className={navbarCss.listStyle}>Why NuoData?</p>,
+        },
+        {
+            key: "sub2",
+            label: <p className={navbarCss.listStyle}>Platforms</p>,
+        },
+        {
+            key: "sub3",
+            label: <p className={navbarCss.listStyle}>Customers</p>,
+        },
+        {
+            key: "sub4",
+            label: <p className={navbarCss.listStyle}>Partners</p>,
+        },
+        {
+            key: "sub5",
+            label: <p className={navbarCss.listStyle}>Resources</p>,
+        },
+        {
+            key: "button1",
+            label: (
+                <Button ghost color="default" variant="outlined">
+                    Contact us
+                </Button>
+            ),
+        },
+        {
+            key: "button2",
+            label: (
+                <Button type="primary" className="custom-primary-button">
+                    START FOR FREE
+                </Button>
+            ),
+        },
+    ];
+
     return (
         <>
-            <Row
-                justify="center"
-                align="middle"
-                // gutter={16}
-                className={navbarCss.outerContainer}
+            <ConfigProvider
+                theme={{
+                    components: {
+                        Menu: {
+                            activeBarHeight: 0,
+                        },
+                    },
+                }}
             >
-                <Col span={2}>
-                    <Image
-                        src="/images/nuodata-logo.png"
-                        alt="nuodata-logo"
-                        height={45}
-                        width={180}
+                <div className={navbarCss.navbarContainer}>
+                    <Menu
+                        className={navbarCss.outerContainer}
+                        mode="horizontal"
+                        items={logo}
                     />
-                </Col>
-                <Col span={2} offset={6}>
-                    <li className={navbarCss.listStyle}>Why NuoData?</li>
-                </Col>
-                <Col span={2}>
-                    <li className={navbarCss.listStyle}>Platforms</li>
-                </Col>
-                <Col span={2}>
-                    <li className={navbarCss.listStyle}>Customers</li>
-                </Col>
-                <Col span={2}>
-                    <li className={navbarCss.listStyle}>Partners</li>
-                </Col>
-                <Col span={2}>
-                    <li className={navbarCss.listStyle}>Resources</li>
-                </Col>
-                <Col span={2}>
-                    <Button ghost color="default" variant="outlined">
-                        Contact us
-                    </Button>
-                </Col>
-                <Col span={2}>
-                    <Button className="custom-primary-button" type="primary">
-                        START FOR FREE
-                    </Button>
-                </Col>
-            </Row>
+                    <Menu
+                        className={navbarCss.outerContainerNoPadding}
+                        mode="horizontal"
+                        items={items}
+                    />
+                </div>
+            </ConfigProvider>
         </>
     );
 }
