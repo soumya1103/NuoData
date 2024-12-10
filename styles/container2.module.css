@@ -1,0 +1,45 @@
+.outerContainer {
+    padding: 2% 7%;
+    text-align: center;
+}
+
+.heading {
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 58.09px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.subheading {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.cardContainer {
+    padding: 0 6.5% 4% 3.5%;
+}
+
+.bg {
+    background-image: url("../public/images/card5-bg.png") !important;
+    background-position: center;
+    background-size: cover;
+    height: 48vh;
+}
+
+.logo {
+    padding-left: 15%;
+}
+
+.icon5 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}

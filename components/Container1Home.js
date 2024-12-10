@@ -30,7 +30,7 @@ export default function Container1Home() {
                         <div className={container1Css.gridContainer2Col}>
                             <div>
                                 <Button
-                                    className="custom-primary-button"
+                                    className="custom-primary-button readMore"
                                     type="primary"
                                 >
                                     Read More <ArrowRightOutlined />

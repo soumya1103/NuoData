@@ -3,14 +3,33 @@
     color: #ffffff !important;
     font-size: 0.9rem !important;
     font-weight: 400 !important;
-    width: 100% !important;
     text-align: center !important;
-    padding: 0 14px !important;
     border-radius: 4px !important;
 }
 
+.navButton.ant-btn-primary {
+    padding: 0 14px !important;
+    width: 100% !important;
+}
+
+.readMore.ant-btn-primary {
+    padding: 22px 24px !important;
+}
+
+.demo.ant-btn-primary {
+    font-size: 1rem !important;
+    width: 28% !important;
+    padding: 20px 24px !important;
+}
+
+.customer.ant-btn-primary {
+    width: 16% !important;
+    padding: 20px 24px !important;
+    margin-top: 3%;
+}
+
 .ant-carousel .slick-dots {
-    bottom: 18% !important;
+    bottom: 25% !important;
     left: 7% !important;
     display: flex !important;
     justify-content: flex-start !important;
@@ -20,17 +39,37 @@
     width: 12px !important;
     height: 12px !important;
     border-radius: 50% !important;
-    border-color: linear-gradient(to right, #2d2d2d, #f4f4e9, #2d2d2d);
 }
 
 .ant-carousel .slick-dots li.slick-active button {
     background-color: #e74860 !important;
-    border-color: linear-gradient(to right, #2d2d2d, #f4f4e9, #2d2d2d);
+    border-color: #f4f4e9 !important;
     border: 2px solid;
-
     transform: scale(1.2) !important;
 }
 
 .ant-carousel .slick-dots li {
     margin: 0 8px !important;
+}
+
+.c2Card.ant-card {
+    background-image: url("../public/images/carousel-background.png") !important;
+    background-position: center;
+    border-radius: 20px !important;
+    padding: 0% 5% 1% 7% !important;
+}
+
+.c4Card.ant-card {
+    background-color: #293449;
+    background-position: center;
+    border-radius: 12px !important;
+}
+
+.ant-card-body {
+    display: grid !important;
+    grid-template-rows: 0% 90% 10% 0%;
+    height: 40vh;
+    padding: 6% 0% !important;
+    justify-content: space-between !important;
+    color: #fff;
 }

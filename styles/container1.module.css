@@ -28,7 +28,7 @@
     text-align: center;
     align-items: center;
     border-radius: 7px;
-    padding: 4.5% 7%;
+    padding: 7%;
     border-left: 1.8px solid #2d2d2d;
     border-right: 1.8px solid #2d2d2d;
     overflow: auto;
@@ -53,7 +53,7 @@
 }
 
 .box {
-    font-size: 0.9rem;
+    font-size: 1rem;
     position: relative;
     width: 10rem;
 }

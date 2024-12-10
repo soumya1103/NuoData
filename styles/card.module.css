@@ -1,0 +1,38 @@
+.cardStyle {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.cardText {
+    margin: 0;
+}
+
+.coverCardStyle {
+    padding: 3% 3% 0 3%;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 2px solid #ffffff2b;
+}
+
+.coverCardStyle h3 {
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    background: linear-gradient(180deg, #ff8860 0%, #fff281 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.coverCardStyle p {
+    margin-bottom: 0;
+}

@@ -54,7 +54,10 @@ export default function Navbar() {
         {
             key: "button2",
             label: (
-                <Button type="primary" className="custom-primary-button">
+                <Button
+                    type="primary"
+                    className="custom-primary-button navButton"
+                >
                     START FOR FREE
                 </Button>
             ),
