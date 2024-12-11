@@ -117,12 +117,12 @@
 }
 
 .ant-tabs-tab-active .ant-tabs-tab-btn {
-    color: #fff !important; /* Active tab text color */
+    color: #fff !important;
     font-weight: bold;
 }
 
 .ant-tabs-ink-bar {
-    background-color: #fff !important; /* Active tab underline color */
+    background-color: #fff !important;
 }
 
 .ant-tabs-nav {
@@ -137,14 +137,13 @@
 }
 
 .ant-tabs-tab-active .ant-tabs-tab-btn::before {
-    content: "•"; /* Ensure the dot is rendered */
-    color: #e74860; /* Active dot color */
-    margin-right: 8px; /* Space between dot and text */
+    content: "•";
+    color: #e74860;
+    margin-right: 8px;
 }
 
-/* Default dot color for inactive tabs */
 .ant-tabs-tab-btn::before {
     content: "•";
-    color: #999; /* Default dot color */
+    color: #ffffff7e;
     margin-right: 8px;
 }

@@ -47,7 +47,7 @@ export default function Container8Home() {
             <div className={container8Css.outerContainer}>
                 <div className={container8Css.innerContainer}>
                     <Tabs
-                        tabBarGutter={135}
+                        tabBarGutter={130}
                         defaultActiveKey="1"
                         items={items}
                     />

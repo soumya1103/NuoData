@@ -31,14 +31,14 @@ export default function HomePage() {
                     </Carousel>
                 </div>
             </div>
-            {/* <Container2Home /> */}
-            {/* <Container3Home /> */}
+            <Container2Home />
+            <Container3Home />
             <Container8Home />
-            {/* <Container4Home /> */}
-            {/* <Container5Home /> */}
-            {/* <Container6Home /> */}
-            {/* <Container7Home /> */}
-            {/* <Footer /> */}
+            <Container4Home />
+            <Container5Home />
+            <Container6Home />
+            <Container7Home />
+            <Footer />
         </>
     );
 }
