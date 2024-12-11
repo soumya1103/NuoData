@@ -7,6 +7,7 @@ import Container3Home from "@/components/Container3Home";
 import Container4Home from "@/components/Container4Home";
 import Container5Home from "@/components/Container5Home";
 import Footer from "@/components/Footer";
+import Container6Home from "@/components/Container6Home";
 
 export default function HomePage() {
     return (
@@ -28,10 +29,11 @@ export default function HomePage() {
                     </Carousel>
                 </div>
             </div>
-            <Container2Home />
-            <Container3Home />
-            <Container4Home />
-            <Container5Home />
+            {/* <Container2Home /> */}
+            {/* <Container3Home /> */}
+            {/* <Container4Home /> */}
+            {/* <Container5Home /> */}
+            <Container6Home />
             <Footer />
         </>
     );
