@@ -104,3 +104,47 @@
     justify-content: space-between !important;
     color: #fff;
 }
+
+.ant-tabs-tab {
+    font-family: Arial;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff7e !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fff !important; /* Active tab text color */
+    font-weight: bold;
+}
+
+.ant-tabs-ink-bar {
+    background-color: #fff !important; /* Active tab underline color */
+}
+
+.ant-tabs-nav {
+    padding: 1% 3.5%;
+    background: linear-gradient(
+        272.15deg,
+        #0c3246 -30.48%,
+        #45374c 95.17%
+    ) !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn::before {
+    content: "•"; /* Ensure the dot is rendered */
+    color: #e74860; /* Active dot color */
+    margin-right: 8px; /* Space between dot and text */
+}
+
+/* Default dot color for inactive tabs */
+.ant-tabs-tab-btn::before {
+    content: "•";
+    color: #999; /* Default dot color */
+    margin-right: 8px;
+}
