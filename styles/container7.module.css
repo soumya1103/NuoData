@@ -1,0 +1,53 @@
+.outerContainer {
+    background: linear-gradient(320.41deg, #46384d 0.51%, #0c3246 104.1%);
+    margin-top: 6%;
+}
+
+.carouselContainer {
+    text-align: center;
+    padding: 3% 5% 7% 5%;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.outerContainer h2 {
+    font-family: Inter;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.outerContainer h4 {
+    width: 80%;
+    margin: 4% auto 0 auto;
+    font-family: Inter;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.outerContainer p {
+    font-family: Inter;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.openImg {
+    position: absolute;
+    top: 50%;
+}
+
+.closeImg {
+    position: relative;
+    left: 80%;
+}

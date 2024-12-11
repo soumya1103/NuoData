@@ -35,6 +35,13 @@
     justify-content: flex-start !important;
 }
 
+.container7 .ant-carousel .slick-dots {
+    bottom: -10% !important;
+    left: 40% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
 .container5 .ant-carousel .slick-dots {
     bottom: -8%;
     left: 45%;
@@ -49,11 +56,18 @@
 }
 
 .container5 .ant-carousel .slick-dots li:not(.slick-active) button {
-    background-color: #e7ebed; /* Set your desired color */
-    opacity: 0.5; /* Optional: Add transparency */
+    background-color: #e7ebed;
+    opacity: 0.5;
 }
 
 .container1 .ant-carousel .slick-dots li.slick-active button {
+    background-color: #e74860 !important;
+    border-color: #f4f4e9 !important;
+    border: 2px solid;
+    transform: scale(1.2) !important;
+}
+
+.container7 .ant-carousel .slick-dots li.slick-active button {
     background-color: #e74860 !important;
     border-color: #f4f4e9 !important;
     border: 2px solid;
