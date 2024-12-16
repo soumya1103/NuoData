@@ -19,14 +19,6 @@ export default function Container3Home() {
             <p className={container2Css.subheading}>
                 NuoData is cloud Agnostic
             </p>
-            <div className={container3Css.centerAlign}>
-                <Image
-                    src="/images/flowchart2-C3.png"
-                    alt="flowchart2"
-                    width={650}
-                    height={517}
-                />
-            </div>
         </>
     );
 }

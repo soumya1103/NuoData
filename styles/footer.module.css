@@ -3,14 +3,12 @@
 }
 
 .bgColor {
-    height: 81vh;
     background-color: rgba(0, 0, 0, 0.662);
     border-radius: 16px;
 }
 
 .innerContainer {
     background-image: url("../public/images/footer.png");
-    height: 81vh;
     border-radius: 16px;
     background-position: center;
     background-size: cover;

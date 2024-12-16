@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import Container6Home from "@/components/Container6Home";
 import Container7Home from "@/components/Container7Home";
 import Container8Home from "@/components/Container8Home";
+import Container9Home from "@/components/Container9Home";
 
 export default function HomePage() {
     return (
@@ -33,6 +34,7 @@ export default function HomePage() {
             </div>
             <Container2Home />
             <Container3Home />
+            <Container9Home />
             <Container8Home />
             <Container4Home />
             <Container5Home />

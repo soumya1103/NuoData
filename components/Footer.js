@@ -37,6 +37,7 @@ export default function Footer() {
                                 </div>
                             </div>
                         </div>
+
                         <Row
                             gutter={{
                                 xs: 8,
@@ -188,9 +189,7 @@ export default function Footer() {
                             </Col>
                         </Row>
                         <hr className={footerCss.footerLine} />
-                        <Row
-                            className={footerCss.rightsReserved}
-                        >
+                        <Row className={footerCss.rightsReserved}>
                             <Col span={6}>
                                 © 2024 NuoData Inc. All Rights Reserved.
                             </Col>

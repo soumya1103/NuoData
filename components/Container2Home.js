@@ -19,7 +19,7 @@ export default function Container2Home() {
                     seamlessly
                 </p>
             </div>
-            <Row className={container2Css.cardContainer}>
+            <Row className={`${container2Css.cardContainer} container2`}>
                 <Col span={5} offset={1}>
                     <CardComponent
                         data="Your Data, Your AI, Your Budget Card content"

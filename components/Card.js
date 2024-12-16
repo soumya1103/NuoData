@@ -8,7 +8,6 @@ const { Meta } = Card; // Extract the Meta subcomponent
 export default function CardComponent({
     data,
     imgSrc,
-    margin,
     coverImg,
     coverImgUrl,
     heading,

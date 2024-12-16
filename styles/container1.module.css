@@ -72,3 +72,15 @@
     justify-content: left;
     align-items: center;
 }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 768px) {
+}
+
+/* Big smartphones (portrait) (ie: Galaxy 3 has 360)*/
+@media only screen and (max-width: 640px) {
+}
+
+/* Smartphones (portrait) (ie: Galaxy 1) */
+@media only screen and (max-width: 321px) {
+}
