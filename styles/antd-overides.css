@@ -174,4 +174,13 @@
         padding: 12% 5% !important;
         color: #fff;
     }
+
+    .customer.ant-btn-primary {
+        width: 30% !important;
+        margin-top: 5%;
+    }
+
+    .demo.ant-btn-primary {
+        width: 32% !important;
+    }
 }

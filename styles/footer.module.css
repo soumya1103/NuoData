@@ -154,3 +154,48 @@
     padding: 1% 0% 1% 5%;
     color: #fff;
 }
+
+@media only screen and (max-width: 1024px) {
+    .bgColor {
+        padding-bottom: 2%;
+    }
+
+    .innerContainer {
+        padding-bottom: 2%;
+    }
+
+    .box h2 {
+        font-size: 1.2rem;
+    }
+
+    .box p {
+        font-size: 0.9rem;
+    }
+
+    .boxContainer {
+        width: 80%;
+        padding: 2%;
+    }
+
+    .listHeading {
+        font-size: 0.9rem;
+    }
+
+    .listText {
+        font-size: 0.7rem;
+    }
+
+    .imageSpace {
+        grid-template-columns: 30% 28% 28%;
+    }
+
+    .partnerImgBox {
+        height: 5vh;
+    }
+
+    .rightsReserved {
+        padding: 1% 0% 1% 5%;
+        color: #fff;
+        font-size: 0.7rem !important;
+    }
+}

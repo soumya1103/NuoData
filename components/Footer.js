@@ -131,6 +131,7 @@ export default function Footer() {
                                                     width={50}
                                                     height={30}
                                                     alt="aws"
+                                                    layout="responsive"
                                                 />
                                             </div>
                                             <div
@@ -139,6 +140,7 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
+                                                    layout="responsive"
                                                     src="/images/gcp.png"
                                                     width={80}
                                                     height={40}
@@ -151,6 +153,7 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
+                                                    layout="responsive"
                                                     src="/images/databricks.png"
                                                     width={80}
                                                     height={40}
@@ -165,6 +168,7 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
+                                                    layout="responsive"
                                                     src="/images/azure.png"
                                                     width={70}
                                                     height={25}
@@ -177,6 +181,7 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
+                                                    layout="responsive"
                                                     src="/images/snowflake.png"
                                                     width={110}
                                                     height={25}
