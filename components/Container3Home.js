@@ -11,6 +11,7 @@ export default function Container3Home() {
                     alt="flowchart1"
                     height={550}
                     width={1100}
+                    layout="responsive"
                 />
             </div>
             <h2 className={container2Css.heading}>

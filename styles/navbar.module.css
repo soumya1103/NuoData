@@ -30,3 +30,33 @@
     margin-right: auto;
     padding: 0;
 }
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.outerContainerNoPadding {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.mobileMenuButton {
+    font-size: 24px;
+    border: none;
+    background: none;
+}
+
+.logoImage {
+    padding: 5% 5% 0 68%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbarContainer {
+        padding: 2% 4%;
+    }
+
+    .logoImage {
+        padding: 0 0 0 15%;
+    }
+}

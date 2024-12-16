@@ -73,14 +73,16 @@
     align-items: center;
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (max-width: 768px) {
-}
+@media only screen and (max-width: 1024px) {
+    .heading {
+        font-size: 1.5rem;
+    }
 
-/* Big smartphones (portrait) (ie: Galaxy 3 has 360)*/
-@media only screen and (max-width: 640px) {
-}
+    .subHeading {
+        font-size: 1rem;
+    }
 
-/* Smartphones (portrait) (ie: Galaxy 1) */
-@media only screen and (max-width: 321px) {
+    .gridContainer2Col {
+        grid-template-columns: auto auto;
+    }
 }

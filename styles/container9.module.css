@@ -55,3 +55,34 @@
     width: 44%;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 1024px) {
+    .box {
+        width: 78%;
+        padding: 2% 2% 0 2%;
+    }
+
+    .buttonGradient {
+        padding: 1% 1%;
+        width: 81%;
+    }
+
+    .imagesVerticalBox1 {
+        top: 20%;
+    }
+
+    .imagesVerticalBox2 {
+        top: 7%;
+    }
+
+    .verticalBox {
+        height: 32vh;
+        padding: 15% 0;
+    }
+
+    .secondRow {
+        width: 85%;
+        margin: 0 auto;
+        padding-left: 2%;
+    }
+}

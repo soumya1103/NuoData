@@ -52,6 +52,7 @@ export default function Container1Home() {
                         height={450}
                         width={550}
                         alt="Flowchart"
+                        layout="responsive"
                     />
                 </Col>
             </Row>

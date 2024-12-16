@@ -83,6 +83,7 @@ export default function Tab1() {
                             width={627}
                             height={403}
                             alt="browser"
+                            layout="responsive"
                         />
                         <Image
                             src="/images/play-btn.png"

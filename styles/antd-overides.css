@@ -156,3 +156,22 @@
     color: #ffffff7e;
     margin-right: 8px;
 }
+
+.fas {
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container1 .ant-carousel .slick-dots {
+        bottom: 9% !important;
+        left: 7% !important;
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+
+    .container2 .ant-card-body {
+        height: 25vh;
+        padding: 12% 5% !important;
+        color: #fff;
+    }
+}

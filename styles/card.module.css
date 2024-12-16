@@ -36,3 +36,9 @@
 .coverCardStyle p {
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 1024px) {
+    .cardText {
+        padding: 5% 2% 5% 0;
+    }
+}

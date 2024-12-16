@@ -17,48 +17,56 @@ export default function Container6Home() {
                         height={30}
                         width={100}
                         alt="azure"
+                        layout="responsive"
                     />
                     <Image
                         src="/images/databricks-c6.png"
                         height={30}
                         width={60}
                         alt="databricks"
+                        layout="responsive"
                     />
                     <Image
                         src="/images/amex-c6.png"
                         height={30}
                         width={90}
                         alt="amex"
+                        layout="responsive"
                     />
                     <Image
                         src="/images/ibm-c6.png"
                         height={30}
                         width={70}
                         alt="ibm"
+                        layout="responsive"
                     />
                     <Image
                         src="/images/aws-c6.png"
                         height={30}
                         width={50}
                         alt="aws"
+                        layout="responsive"
                     />
                     <Image
                         src="/images/gcp-c6.png"
                         height={30}
                         width={70}
                         alt="gcp"
+                        layout="responsive"
                     />
                     <Image
                         src="/images/snowflake-c6.png"
                         height={30}
                         width={140}
                         alt="snowflake"
+                        layout="responsive"
                     />
                     <Image
                         src="/images/salesforce-c6.png"
                         height={30}
                         width={50}
                         alt="salesforce"
+                        layout="responsive"
                     />
                 </div>
             </div>

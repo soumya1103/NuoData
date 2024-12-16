@@ -89,3 +89,26 @@
 .readMoreBtn {
     padding-left: 2.5%;
 }
+
+@media only screen and (max-width: 1024px) {
+    .verticalHr {
+        height: 155px;
+    }
+
+    .flexContainer h2 {
+        font-size: 1.3rem;
+    }
+
+    .flexContainer h4 {
+        font-size: 1.1rem;
+    }
+
+    .gridContainer h5 {
+        font-size: 1rem;
+    }
+
+    .playBtn {
+        top: 13%;
+        left: 40%;
+    }
+}

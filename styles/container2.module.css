@@ -11,6 +11,7 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    margin-bottom: 0;
 }
 
 .subheading {
@@ -21,6 +22,7 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    margin-top: 0;
 }
 
 .cardContainer {
@@ -42,4 +44,22 @@
     position: absolute;
     top: 40%;
     left: 45%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .subheading {
+        font-size: 1rem;
+    }
+
+    .bg {
+        height: 20vh;
+    }
+
+    .icon5 {
+        left: 40%;
+    }
 }
