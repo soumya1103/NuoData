@@ -36,3 +36,19 @@
         font-size: 2rem;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .outerContainer {
+        padding-top: 10%;
+    }
+
+    .outerContainer h1 {
+        font-size: 1.3rem;
+    }
+
+    .companiesInner {
+        padding: 4% 5%;
+        grid-template-columns: auto auto auto auto;
+        grid-row-gap: 15%;
+    }
+}

@@ -4,7 +4,7 @@
 }
 
 .outerContainerNoPadding {
-    padding: 0% 5.7% 0 6.7%;
+    padding: 1% 5.7% 0 6.7%;
     background: transparent;
 }
 
@@ -44,7 +44,7 @@
 .mobileMenuButton {
     font-size: 24px;
     border: none;
-    background: none;
+    color: #fff !important;
 }
 
 .logoImage {
@@ -57,6 +57,18 @@
     }
 
     .logoImage {
-        padding: 0 0 0 15%;
+        padding: 0 0 0 20%;
+    }
+
+    .listStyle {
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logoImage {
+        padding: 1% 0 0 9%;
+        height: 17%;
+        width: 60%;
     }
 }

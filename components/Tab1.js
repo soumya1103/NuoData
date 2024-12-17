@@ -68,7 +68,7 @@ export default function Tab1() {
                     </div>
                 </div>
                 <Row className={tab1Css.gridContainer}>
-                    <Col span={12}>
+                    <Col xl={12} lg={12} md={12} xs={24}>
                         {data.map((item, index) => (
                             <div key={index}>
                                 <h5>{item.heading}</h5>
@@ -77,7 +77,7 @@ export default function Tab1() {
                             </div>
                         ))}
                     </Col>
-                    <Col span={12}>
+                    <Col xl={12} lg={12} md={12} xs={24}>
                         <Image
                             src="/images/browser.png"
                             width={627}

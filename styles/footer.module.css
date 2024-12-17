@@ -151,7 +151,7 @@
 }
 
 .rightsReserved {
-    padding: 1% 0% 1% 5%;
+    padding: 1% 0% 2% 5%;
     color: #fff;
 }
 
@@ -197,5 +197,48 @@
         padding: 1% 0% 1% 5%;
         color: #fff;
         font-size: 0.7rem !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box {
+        display: block;
+        font-size: 0.9rem;
+    }
+
+    .box h2 {
+        font-size: 1.2rem;
+        margin: 2% 0 2% 0;
+    }
+
+    .box p {
+        text-align: justify;
+        margin-bottom: 4%;
+    }
+
+    .nImg {
+        width: 22%;
+        height: 18%;
+    }
+
+    .boxContainer {
+        width: 92%;
+        padding: 5% 4%;
+    }
+
+    .imageSpace {
+        grid-template-columns: 28% 28% 28%;
+        grid-gap: 10%;
+    }
+
+    .partnerImgBox {
+        height: 5vh;
+        padding: 10%;
+    }
+
+    .rightsReserved {
+        padding: 1% 5%;
+        color: #fff;
+        font-size: 0.8rem;
     }
 }

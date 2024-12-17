@@ -54,12 +54,57 @@
 
 @media only screen and (max-width: 1024px) {
     .outerContainer {
-        height: 47vh;
+        height: 42vh;
     }
+
     .carouselContainer {
         text-align: center;
         padding: 3% 5% 7% 5%;
         margin: 0 auto;
         width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .outerContainer {
+        height: 47vh;
+        padding: 4% 0 8% 0;
+    }
+
+    .carouselContainer {
+        padding: 0;
+    }
+
+    .outerContainer h2 {
+        font-size: 1rem;
+    }
+
+    .outerContainer h4 {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 0.9rem;
+    }
+
+    .outerContainer p {
+        width: 80%;
+        font-size: 0.9rem;
+        margin: 0 auto;
+    }
+
+    .openImg {
+        top: 50%;
+        height: 5%;
+        width: 1%;
+    }
+
+    .reviewImg {
+        height: 20%;
+        width: 90%;
+    }
+
+    .closeImg {
+        left: 80%;
+        height: 4%;
+        width: 6%;
     }
 }

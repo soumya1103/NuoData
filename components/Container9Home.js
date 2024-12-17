@@ -18,24 +18,28 @@ export default function Container9Home() {
                                 </button>
                                 <div className={container9Css.imgContainer}>
                                     <Image
+                                        className={container9Css.images}
                                         src="/images/c9-img1.svg"
                                         height={100}
                                         width={100}
                                         alt="gcp"
                                     />
                                     <Image
+                                        className={container9Css.images}
                                         src="/images/c9-img2.svg"
                                         height={60}
                                         width={60}
                                         alt="aws"
                                     />
                                     <Image
+                                        className={container9Css.images}
                                         src="/images/c9-img3.svg"
                                         height={60}
                                         width={60}
                                         alt="azure"
                                     />
                                     <Image
+                                        className={container9Css.images}
                                         src="/images/c9-img4.svg"
                                         height={100}
                                         width={100}
@@ -46,7 +50,7 @@ export default function Container9Home() {
                         </Col>
                     </Row>
                     <Row className={container9Css.secondRow}>
-                        <Col span={7}>
+                        <Col xl={7} lg={7} md={7} xs={24}>
                             <div
                                 className={`${container9Css.box} ${container9Css.verticalBox}`}
                             >
@@ -83,7 +87,12 @@ export default function Container9Home() {
                                 </div>
                             </div>
                         </Col>
-                        <Col span={7} offset={1}>
+                        <Col
+                            xl={{ span: 7, offset: 1 }}
+                            lg={{ span: 7, offset: 1 }}
+                            md={{ span: 7, offset: 1 }}
+                            xs={{ span: 24, offset: 0 }}
+                        >
                             <div
                                 className={`${container9Css.box} ${container9Css.verticalBox}`}
                             >
@@ -146,7 +155,12 @@ export default function Container9Home() {
                                 </div>
                             </div>
                         </Col>
-                        <Col span={7} offset={1}>
+                        <Col
+                            xl={{ span: 7, offset: 1 }}
+                            lg={{ span: 7, offset: 1 }}
+                            md={{ span: 7, offset: 1 }}
+                            xs={{ span: 24, offset: 0 }}
+                        >
                             <div
                                 className={`${container9Css.box} ${container9Css.verticalBox}`}
                             >

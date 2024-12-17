@@ -139,7 +139,11 @@ export default function Container5Home() {
                                                 Integrated NuoData Atlas's
                                                 native data quality tools into
                                                 workflows:
-                                                <ul>
+                                                <ul
+                                                    className={
+                                                        container5Css.uList
+                                                    }
+                                                >
                                                     <li>
                                                         Enabled no-code test
                                                         creation for both

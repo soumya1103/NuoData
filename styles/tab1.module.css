@@ -112,3 +112,49 @@
         left: 40%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .flexContainer {
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .verticalHr {
+        width: 100%;
+        height: 1px;
+    }
+
+    .flexContainer h2 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .flexContainer h4 {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .flexContainer p {
+        font-size: 0.9rem;
+        text-align: justify;
+        margin-top: 3%;
+    }
+
+    .gridContainer h5 {
+        font-size: 1rem;
+    }
+
+    .gridContainer p {
+        text-align: justify;
+    }
+
+    .playBtn {
+        top: 33%;
+        left: 40%;
+    }
+
+    .readMoreBtn {
+        padding-left: 2.5%;
+    }
+}

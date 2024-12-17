@@ -17,6 +17,7 @@ export default function Footer() {
                                         height={80}
                                         width={80}
                                         alt="N"
+                                        className={footerCss.nImg}
                                     />
                                     <div>
                                         <h2>2024 PARTNER PROGRAM</h2>
@@ -38,16 +39,8 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        <Row
-                            gutter={{
-                                xs: 8,
-                                sm: 16,
-                                md: 24,
-                                lg: 32,
-                            }}
-                            className={footerCss.footerText}
-                        >
-                            <Col className="gutter-row" span={6}>
+                        <Row className={footerCss.footerText}>
+                            <Col xl={6} lg={6} md={6} xs={12}>
                                 <div>
                                     <ul className={footerCss.listText}>
                                         <li>
@@ -71,7 +64,7 @@ export default function Footer() {
                                     </ul>
                                 </div>
                             </Col>
-                            <Col className="gutter-row" span={4}>
+                            <Col xl={4} lg={4} md={4} xs={12}>
                                 <div>
                                     <ul className={footerCss.listText}>
                                         <li>
@@ -91,7 +84,12 @@ export default function Footer() {
                                     </ul>
                                 </div>
                             </Col>
-                            <Col className="gutter-row" span={4} offset={1}>
+                            <Col
+                                xl={{ span: 4, offset: 1 }}
+                                lg={{ span: 4, offset: 1 }}
+                                md={{ span: 4, offset: 1 }}
+                                xs={{ span: 12, offset: 0 }}
+                            >
                                 <div>
                                     <ul className={footerCss.listText}>
                                         <li>
@@ -108,7 +106,7 @@ export default function Footer() {
                                     </ul>
                                 </div>
                             </Col>
-                            <Col className="gutter-row" span={8}>
+                            <Col xl={8} lg={8} md={8} xs={12}>
                                 <div>
                                     <ul className={footerCss.listText}>
                                         <li>
@@ -131,7 +129,6 @@ export default function Footer() {
                                                     width={50}
                                                     height={30}
                                                     alt="aws"
-                                                    layout="responsive"
                                                 />
                                             </div>
                                             <div
@@ -140,7 +137,6 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
-                                                    layout="responsive"
                                                     src="/images/gcp.png"
                                                     width={80}
                                                     height={40}
@@ -153,7 +149,6 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
-                                                    layout="responsive"
                                                     src="/images/databricks.png"
                                                     width={80}
                                                     height={40}
@@ -168,7 +163,6 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
-                                                    layout="responsive"
                                                     src="/images/azure.png"
                                                     width={70}
                                                     height={25}
@@ -181,7 +175,6 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
-                                                    layout="responsive"
                                                     src="/images/snowflake.png"
                                                     width={110}
                                                     height={25}
@@ -195,13 +188,25 @@ export default function Footer() {
                         </Row>
                         <hr className={footerCss.footerLine} />
                         <Row className={footerCss.rightsReserved}>
-                            <Col span={6}>
+                            <Col xl={6} lg={6} md={6} xs={8}>
                                 © 2024 NuoData Inc. All Rights Reserved.
                             </Col>
-                            <Col span={3} offset={12}>
+                            <Col
+                                xl={{ span: 3, offset: 11 }}
+                                lg={{ span: 3, offset: 11 }}
+                                md={{ span: 3, offset: 11 }}
+                                xs={{ span: 7, offset: 1 }}
+                            >
                                 Terms and Conditions
                             </Col>
-                            <Col span={3}>Privacy Policy</Col>
+                            <Col
+                                xl={3}
+                                lg={3}
+                                md={3}
+                                xs={{ span: 7, offset: 1 }}
+                            >
+                                Privacy Policy
+                            </Col>
                         </Row>
                     </div>
                 </div>

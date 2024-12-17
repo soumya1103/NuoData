@@ -18,7 +18,7 @@ export default function Container1Home() {
                 align="middle"
                 className={container1Css.outerContainer}
             >
-                <Col span={10}>
+                <Col xl={10} lg={10} md={10} xs={24}>
                     <div style={contentStyle}>
                         <h1 className={container1Css.heading}>
                             Building Tomorrow&#39;s Data Universe Today
@@ -46,7 +46,7 @@ export default function Container1Home() {
                         </div>
                     </div>
                 </Col>
-                <Col span={8} offset={4}>
+                <Col span={8} offset={4} className={container1Css.flowchart}>
                     <Image
                         src="/images/flowchart-C1.png"
                         height={450}

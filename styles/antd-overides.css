@@ -29,7 +29,7 @@
 }
 
 .container1 .ant-carousel .slick-dots {
-    bottom: 25% !important;
+    bottom: 20% !important;
     left: 7% !important;
     display: flex !important;
     justify-content: flex-start !important;
@@ -180,7 +180,60 @@
         margin-top: 5%;
     }
 
+    .ant-card-body {
+        height: 26vh;
+    }
+
     .demo.ant-btn-primary {
         width: 32% !important;
+    }
+
+    .mobileMenuButton {
+        color: #fff !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .readMore.ant-btn-primary {
+        padding: 1% 10px !important;
+    }
+
+    .container2 .ant-card-body {
+        font-size: 0.9rem;
+        height: 30vh;
+        padding-bottom: 10%;
+    }
+
+    .c2Card.ant-card {
+        margin-bottom: 8%;
+        width: 98%;
+    }
+
+    .demo.ant-btn-primary {
+        font-size: 0.9rem !important;
+        width: 65% !important;
+    }
+
+    .c4Card.ant-card {
+        margin-bottom: 5%;
+    }
+
+    .ant-card-body {
+        height: 38vh;
+    }
+
+    .customer.ant-btn-primary {
+        width: 65% !important;
+        margin-top: 2%;
+    }
+
+    .container5 .ant-carousel .slick-dots {
+        bottom: -4%;
+        left: 32%;
+    }
+
+    .container7 .ant-carousel .slick-dots {
+        bottom: -5% !important;
+        left: 30% !important;
     }
 }

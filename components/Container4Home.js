@@ -25,7 +25,12 @@ export default function Container4Home() {
                     </div>
                 </div>
                 <Row>
-                    <Col span={7} offset={1}>
+                    <Col
+                        xl={{ span: 7, offset: 1 }}
+                        lg={{ span: 7, offset: 1 }}
+                        md={{ span: 7, offset: 1 }}
+                        xs={{ span: 24, offset: 0 }}
+                    >
                         <CardComponent
                             coverImg="true"
                             heading="Enhancing Data Discovery and Governance for a Big credit card company"
@@ -34,7 +39,12 @@ export default function Container4Home() {
                             coverImgUrl="/images/c4-card1.png"
                         />
                     </Col>
-                    <Col span={7} offset={1}>
+                    <Col
+                        xl={{ span: 7, offset: 1 }}
+                        lg={{ span: 7, offset: 1 }}
+                        md={{ span: 7, offset: 1 }}
+                        xs={{ span: 24, offset: 0 }}
+                    >
                         <CardComponent
                             coverImg="true"
                             heading="Implementing Efficient and Collaborative Data Quality Management for a retail giant."
@@ -43,7 +53,12 @@ export default function Container4Home() {
                             coverImgUrl="/images/c4-card2.png"
                         />
                     </Col>
-                    <Col span={7} offset={1}>
+                    <Col
+                        xl={{ span: 7, offset: 1 }}
+                        lg={{ span: 7, offset: 1 }}
+                        md={{ span: 7, offset: 1 }}
+                        xs={{ span: 24, offset: 0 }}
+                    >
                         <CardComponent
                             coverImg="true"
                             heading="Modernizing Financial Reporting for a Multi-national Corporation"

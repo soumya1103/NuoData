@@ -1,7 +1,7 @@
 .outerContainer {
     background-image: url("../public/images/carousel-background.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .customHr {
@@ -19,4 +19,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .outerContainer {
+        background-size: cover;
+    }
 }

@@ -20,25 +20,45 @@ export default function Container2Home() {
                 </p>
             </div>
             <Row className={`${container2Css.cardContainer} container2`}>
-                <Col span={5} offset={1}>
+                <Col
+                    xl={{ span: 5, offset: 1 }}
+                    lg={{ span: 5, offset: 1 }}
+                    md={{ span: 5, offset: 1 }}
+                    xs={{ span: 12, offset: 0 }}
+                >
                     <CardComponent
                         data="Your Data, Your AI, Your Budget Card content"
                         imgSrc="/images/card-icon1.png"
                     />
                 </Col>
-                <Col span={5} offset={1}>
+                <Col
+                    xl={{ span: 5, offset: 1 }}
+                    lg={{ span: 5, offset: 1 }}
+                    md={{ span: 5, offset: 1 }}
+                    xs={{ span: 12, offset: 0 }}
+                >
                     <CardComponent
                         data="Build, Ingest, Transform Data 60X Faster"
                         imgSrc="/images/card-icon2.png"
                     />
                 </Col>
-                <Col span={5} offset={1}>
+                <Col
+                    xl={{ span: 5, offset: 1 }}
+                    lg={{ span: 5, offset: 1 }}
+                    md={{ span: 5, offset: 1 }}
+                    xs={{ span: 12, offset: 0 }}
+                >
                     <CardComponent
                         data="The All-in-One Platform for Data Engineering, Analytics Modernization"
                         imgSrc="/images/card-icon3.png"
                     />
                 </Col>
-                <Col span={5} offset={1}>
+                <Col
+                    xl={{ span: 5, offset: 1 }}
+                    lg={{ span: 5, offset: 1 }}
+                    md={{ span: 5, offset: 1 }}
+                    xs={{ span: 12, offset: 0 }}
+                >
                     <CardComponent
                         data=" Unmatched Flexibility & Ownership Run on Any Engine, Any Runtime, Any Storage"
                         imgSrc="/images/card-icon4.png"
@@ -46,7 +66,12 @@ export default function Container2Home() {
                 </Col>
             </Row>
             <Row className={container2Css.cardContainer}>
-                <Col span={12} offset={6}>
+                <Col
+                    xl={{ span: 12, offset: 6 }}
+                    lg={{ span: 12, offset: 6 }}
+                    md={{ span: 12, offset: 6 }}
+                    xs={{ span: 24, offset: 0 }}
+                >
                     <Card bordered={false} className={container2Css.bg}>
                         <Image
                             className={container2Css.logo}

@@ -86,3 +86,38 @@
         grid-template-columns: auto auto;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .outerContainer {
+        padding: 3% 7.5% 10% 7.5%;
+    }
+
+    .heading {
+        font-size: 1.2rem;
+    }
+
+    .subHeading {
+        font-size: 0.9rem;
+    }
+
+    .flowchart {
+        display: none;
+    }
+
+    .boxParent {
+        padding: 5%;
+    }
+
+    .box {
+        font-size: 0.9rem;
+        width: 8rem;
+    }
+
+    .boxContainer {
+        width: 8rem;
+    }
+
+    .gridContainer2Col {
+        grid-template-columns: auto auto;
+    }
+}

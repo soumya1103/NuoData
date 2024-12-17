@@ -6,15 +6,17 @@ import navbarCss from "../styles/navbar.module.css";
 import "../styles/antd-overides.css";
 
 export default function Navbar() {
-    const [isMobile, setIsMobile] = useState(false);
     const [drawerVisible, setDrawerVisible] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
+    const [isTab, setIsTab] = useState(false);
 
     const handleResize = () => {
-        setIsMobile(window.innerWidth <= 1024);
+        setIsTab(window.innerWidth <= 1024);
+        setIsMobile(window.innerWidth <= 768);
     };
 
     useEffect(() => {
-        handleResize(); // Initial check
+        handleResize();
         window.addEventListener("resize", handleResize);
         return () => {
             window.removeEventListener("resize", handleResize);
@@ -85,22 +87,15 @@ export default function Navbar() {
         >
             <div className={navbarCss.navbarContainer}>
                 <div className={navbarCss.logoContainer}>{logo}</div>
-
-                {isMobile ? (
+                {isMobile || isTab ? (
                     <>
                         <Button
                             type="text"
-                            icon={
-                                <i
-                                    className="fas fa-bars"
-                                    style={{ color: "white" }}
-                                ></i>
-                            } // Use any hamburger menu icon
+                            icon={<i className="fas fa-bars"></i>}
                             onClick={() => setDrawerVisible(true)}
                             className={navbarCss.mobileMenuButton}
                         />
                         <Drawer
-                            title={logo}
                             placement="right"
                             onClose={() => setDrawerVisible(false)}
                             visible={drawerVisible}
