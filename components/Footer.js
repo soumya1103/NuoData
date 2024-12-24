@@ -14,8 +14,8 @@ export default function Footer() {
                                 <div className={footerCss.box}>
                                     <Image
                                         src="/images/footer-n.png"
-                                        height={80}
-                                        width={80}
+                                        height={100}
+                                        width={100}
                                         alt="N"
                                         className={footerCss.nImg}
                                     />
@@ -125,6 +125,9 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
+                                                    className={
+                                                        footerCss.partnerImg
+                                                    }
                                                     src="/images/aws.png"
                                                     width={50}
                                                     height={30}
@@ -137,6 +140,9 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
+                                                    className={
+                                                        footerCss.partnerImg
+                                                    }
                                                     src="/images/gcp.png"
                                                     width={80}
                                                     height={40}
@@ -149,6 +155,9 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
+                                                    className={
+                                                        footerCss.partnerImg
+                                                    }
                                                     src="/images/databricks.png"
                                                     width={80}
                                                     height={40}
@@ -163,6 +172,9 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
+                                                    className={
+                                                        footerCss.partnerImg
+                                                    }
                                                     src="/images/azure.png"
                                                     width={70}
                                                     height={25}
@@ -175,6 +187,9 @@ export default function Footer() {
                                                 }
                                             >
                                                 <Image
+                                                    className={
+                                                        footerCss.partnerImg
+                                                    }
                                                     src="/images/snowflake.png"
                                                     width={110}
                                                     height={25}

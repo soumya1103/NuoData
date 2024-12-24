@@ -49,6 +49,7 @@ export default function Tab1() {
                         width={86}
                         height={86}
                         alt="logo"
+                        className={tab1Css.icon}
                     />
                     <hr className={tab1Css.verticalHr} />
                     <div>
@@ -68,7 +69,7 @@ export default function Tab1() {
                     </div>
                 </div>
                 <Row className={tab1Css.gridContainer}>
-                    <Col xl={12} lg={12} md={12} xs={24}>
+                    <Col xl={11} lg={11} md={11} xs={24}>
                         {data.map((item, index) => (
                             <div key={index}>
                                 <h5>{item.heading}</h5>
@@ -77,7 +78,7 @@ export default function Tab1() {
                             </div>
                         ))}
                     </Col>
-                    <Col xl={12} lg={12} md={12} xs={24}>
+                    <Col xl={13} lg={13} md={13} xs={24}>
                         <Image
                             src="/images/browser.png"
                             width={627}

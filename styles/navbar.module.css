@@ -11,7 +11,7 @@
 .listStyle {
     cursor: pointer;
     font-family: Inter;
-    font-size: 0.9rem;
+    font-size: 1.1vw;
     font-weight: 400;
     line-height: 18px;
     text-align: center;
@@ -48,7 +48,14 @@
 }
 
 .logoImage {
-    padding: 5% 5% 0 68%;
+    padding: 5% 5% 0 52%;
+    height: 7vh;
+    width: 15vw;
+}
+
+.ghostBtn {
+    font-size: 1.1vw;
+    padding: 2vh 1vw !important;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -57,7 +64,9 @@
     }
 
     .logoImage {
-        padding: 0 0 0 20%;
+        padding: 0 0 0 19%;
+        height: 4vh;
+        width: 20vw;
     }
 
     .listStyle {
@@ -67,8 +76,7 @@
 
 @media only screen and (max-width: 768px) {
     .logoImage {
-        padding: 1% 0 0 9%;
-        height: 17%;
-        width: 60%;
+        padding: 1% 0 0 13%;
+        width: 30vw;
     }
 }

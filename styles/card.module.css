@@ -1,6 +1,6 @@
 .cardStyle {
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 1.2vw;
     font-weight: 500;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -8,6 +8,11 @@
 
 .cardText {
     margin: 0;
+}
+
+.cardImg {
+    height: 4vh;
+    width: 2.5vw;
 }
 
 .coverCardStyle {
@@ -24,9 +29,9 @@
 
 .coverCardStyle h3 {
     font-family: Inter;
-    font-size: 1.1rem;
+    font-size: 1.15vw;
     font-weight: 400;
-    line-height: 24.2px;
+    line-height: 3.5vh;
     text-align: left;
     background: linear-gradient(180deg, #ff8860 0%, #fff281 100%);
     -webkit-background-clip: text;
@@ -34,16 +39,44 @@
 }
 
 .coverCardStyle p {
+    line-height: 2.9vh;
     margin-bottom: 0;
+    font-size: 0.9vw;
+}
+
+.coverImg {
+    width: 25vw;
+    height: 30vh;
 }
 
 @media only screen and (max-width: 1024px) {
     .cardText {
         padding: 5% 2% 5% 0;
     }
+
+    .cardImg {
+        height: 2vh;
+    }
+
+    .coverImg {
+        width: 35vw;
+        height: 18vh;
+    }
+
+    .coverCardStyle h3 {
+        line-height: 2.5vh;
+    }
+
+    .coverCardStyle p {
+        line-height: 2.9vh;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+    .coverImg {
+        height: 25vh;
+    }
+
     .coverCardStyle p {
         margin-top: 0;
         text-align: justify;

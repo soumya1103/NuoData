@@ -6,7 +6,7 @@
 
 .customHr {
     position: relative;
-    height: 1px;
+    height: 0.3vh;
     border: none;
     background: linear-gradient(to right, #2d2d2d, #f4f4e9, #2d2d2d);
     width: 100%;
@@ -21,5 +21,9 @@
 @media only screen and (max-width: 1024px) {
     .outerContainer {
         background-size: cover;
+    }
+
+    .customHr {
+        height: 0.1vh;
     }
 }

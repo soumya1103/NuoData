@@ -64,6 +64,7 @@ export default function Container9Home() {
                                 >
                                     <div>
                                         <Image
+                                            className={container9Css.imgV1}
                                             src="/images/c9-img5.svg"
                                             height={50}
                                             width={100}
@@ -72,6 +73,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV1}
                                             src="/images/c9-img6.svg"
                                             height={50}
                                             width={100}
@@ -79,6 +81,7 @@ export default function Container9Home() {
                                         />
                                     </div>
                                     <Image
+                                        className={container9Css.imgV1}
                                         src="/images/c9-img7.svg"
                                         height={50}
                                         width={100}
@@ -106,6 +109,7 @@ export default function Container9Home() {
                                 >
                                     <div>
                                         <Image
+                                            className={container9Css.imgV1}
                                             src="/images/c9-img5.svg"
                                             height={50}
                                             width={100}
@@ -114,6 +118,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV1}
                                             src="/images/c9-img8.svg"
                                             height={70}
                                             width={70}
@@ -122,6 +127,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV1}
                                             src="/images/c9-img9.svg"
                                             height={50}
                                             width={50}
@@ -130,6 +136,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV1}
                                             src="/images/c9-img12.svg"
                                             height={50}
                                             width={150}
@@ -138,6 +145,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV1}
                                             src="/images/c9-img10.svg"
                                             height={50}
                                             width={130}
@@ -146,6 +154,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV1}
                                             src="/images/c9-img11.svg"
                                             height={50}
                                             width={110}
@@ -174,6 +183,7 @@ export default function Container9Home() {
                                 >
                                     <div>
                                         <Image
+                                            className={container9Css.imgV3}
                                             src="/images/c9-img13.svg"
                                             height={50}
                                             width={100}
@@ -182,6 +192,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV3}
                                             src="/images/c9-img14.svg"
                                             height={60}
                                             width={80}
@@ -190,6 +201,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV3}
                                             src="/images/c9-img15.svg"
                                             height={50}
                                             width={70}
@@ -198,6 +210,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV3}
                                             src="/images/c9-img16.svg"
                                             height={50}
                                             width={110}
@@ -206,6 +219,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV3}
                                             src="/images/c9-img17.svg"
                                             height={50}
                                             width={50}
@@ -214,6 +228,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV3}
                                             src="/images/c9-img18.svg"
                                             height={50}
                                             width={100}
@@ -222,6 +237,7 @@ export default function Container9Home() {
                                     </div>
                                     <div>
                                         <Image
+                                            className={container9Css.imgV3}
                                             src="/images/c9-img19.svg"
                                             height={40}
                                             width={100}

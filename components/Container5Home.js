@@ -32,6 +32,7 @@ export default function Container5Home() {
                                                 height={50}
                                                 width={50}
                                                 alt="dart"
+                                                className={container5Css.c5Img}
                                             />
                                             <h3>
                                                 Overcoming Business Hurdles 😞
@@ -49,6 +50,7 @@ export default function Container5Home() {
                                             className={container5Css.carouselR1}
                                         >
                                             <Image
+                                                className={container5Css.c5Img}
                                                 src="/images/c5-img2.png"
                                                 height={50}
                                                 width={50}

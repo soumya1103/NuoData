@@ -5,9 +5,9 @@
 
 .heading {
     font-family: Inter;
-    font-size: 2rem;
+    font-size: 2.5vw;
     font-weight: 500;
-    line-height: 58.09px;
+    line-height: 8vh;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -16,9 +16,9 @@
 
 .subheading {
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 1.1vw;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 3.5vh;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -38,29 +38,39 @@
 
 .logo {
     padding-left: 15%;
+    height: 6vh;
+    width: 12vw;
 }
 
 .icon5 {
     position: absolute;
     top: 40%;
     left: 45%;
+    height: 8vh;
+    width: 4vw;
 }
 
 @media only screen and (max-width: 1024px) {
     .heading {
-        font-size: 1.5rem;
+        line-height: 5vh;
     }
 
     .subheading {
-        font-size: 1rem;
+        line-height: 2.5vh;
     }
 
     .bg {
         height: 20vh;
     }
 
+    .logo {
+        height: 3vh;
+    }
+
     .icon5 {
-        left: 40%;
+        left: 42%;
+        height: 4vh;
+        width: 6vw;
     }
 }
 

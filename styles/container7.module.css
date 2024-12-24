@@ -13,7 +13,7 @@
 .outerContainer h2 {
     font-family: Inter;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.6vw;
     font-weight: 400;
     text-align: center;
     text-underline-position: from-font;
@@ -24,7 +24,7 @@
     width: 80%;
     margin: 4% auto 0 auto;
     font-family: Inter;
-    font-size: 1.1rem;
+    font-size: 1.6vw;
     color: #fff;
     font-weight: 400;
     text-align: center;
@@ -34,7 +34,7 @@
 
 .outerContainer p {
     font-family: Inter;
-    font-size: 0.9rem;
+    font-size: 0.85vw;
     color: #fff;
     font-weight: 400;
     text-align: center;
@@ -52,9 +52,19 @@
     left: 80%;
 }
 
+.reviewImg {
+    width: 30vw;
+    height: 17vh;
+}
+
 @media only screen and (max-width: 1024px) {
     .outerContainer {
-        height: 42vh;
+        height: 30vh;
+    }
+
+    .reviewImg {
+        height: 7vh;
+        width: 40vw;
     }
 
     .carouselContainer {
@@ -67,7 +77,7 @@
 
 @media only screen and (max-width: 768px) {
     .outerContainer {
-        height: 47vh;
+        height: 35vh;
         padding: 4% 0 8% 0;
     }
 
@@ -98,8 +108,8 @@
     }
 
     .reviewImg {
-        height: 20%;
-        width: 90%;
+        height: 8vh;
+        width: 50vw;
     }
 
     .closeImg {

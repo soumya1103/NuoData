@@ -57,7 +57,12 @@ export default function Navbar() {
         {
             key: "button1",
             label: (
-                <Button ghost color="default" variant="outlined">
+                <Button
+                    ghost
+                    color="default"
+                    variant="outlined"
+                    className={navbarCss.ghostBtn}
+                >
                     Contact us
                 </Button>
             ),

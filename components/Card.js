@@ -19,6 +19,7 @@ export default function CardComponent({
                     className={`${cardCss.coverCardStyle} c4Card`}
                     cover={
                         <Image
+                            className={cardCss.coverImg}
                             alt="example"
                             src={coverImgUrl}
                             height={200}

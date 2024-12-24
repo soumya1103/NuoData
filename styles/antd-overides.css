@@ -1,38 +1,56 @@
 .custom-primary-button.ant-btn-primary {
     background-color: #e74860 !important;
     color: #ffffff !important;
-    font-size: 0.9rem !important;
+    font-size: 1.1vw !important;
     font-weight: 400 !important;
     text-align: center !important;
     border-radius: 4px !important;
 }
 
+.customer.ant-btn-primary {
+    font-size: 1.1vw !important;
+    width: 18% !important;
+    padding: 2.5vh 3vh !important;
+    margin-top: 3%;
+}
+
 .navButton.ant-btn-primary {
-    padding: 0 14px !important;
+    padding: 2vh 1vw !important;
     width: 100% !important;
 }
 
 .readMore.ant-btn-primary {
-    padding: 22px 24px !important;
+    padding: 3vh 2vw !important;
+    font-size: 1.1vw;
 }
 
-.demo.ant-btn-primary {
-    font-size: 1rem !important;
-    width: 28% !important;
-    padding: 20px 24px !important;
+.ant-carousel .slick-dots li button {
+    width: 1.1vw !important;
+    height: 2vh !important;
+    border-radius: 50% !important;
 }
 
-.customer.ant-btn-primary {
-    width: 16% !important;
-    padding: 20px 24px !important;
-    margin-top: 3%;
+.ant-carousel .slick-dots li {
+    margin: 0 0.8vw !important;
 }
 
 .container1 .ant-carousel .slick-dots {
-    bottom: 20% !important;
+    bottom: 12% !important;
     left: 7% !important;
     display: flex !important;
     justify-content: flex-start !important;
+}
+
+.container1 .ant-carousel .slick-dots li.slick-active button {
+    background-color: #e74860 !important;
+    border-color: #f4f4e9 !important;
+    border: 2px solid;
+}
+
+.demo.ant-btn-primary {
+    font-size: 1.1vw !important;
+    width: 28% !important;
+    padding: 2.5vh 3vh !important;
 }
 
 .container7 .ant-carousel .slick-dots {
@@ -49,43 +67,25 @@
     justify-content: flex-start !important;
 }
 
-.ant-carousel .slick-dots li button {
-    width: 12px !important;
-    height: 12px !important;
-    border-radius: 50% !important;
-}
-
 .container5 .ant-carousel .slick-dots li:not(.slick-active) button {
     background-color: #e7ebed;
     opacity: 0.5;
-}
-
-.container1 .ant-carousel .slick-dots li.slick-active button {
-    background-color: #e74860 !important;
-    border-color: #f4f4e9 !important;
-    border: 2px solid;
-    transform: scale(1.2) !important;
 }
 
 .container7 .ant-carousel .slick-dots li.slick-active button {
     background-color: #e74860 !important;
     border-color: #f4f4e9 !important;
     border: 2px solid;
-    transform: scale(1.2) !important;
 }
 
 .container5 .ant-carousel .slick-dots li.slick-active button {
     background-color: #e74860 !important;
-    transform: scale(1.2) !important;
-}
-
-.ant-carousel .slick-dots li {
-    margin: 0 8px !important;
 }
 
 .c2Card.ant-card {
     background-image: url("../public/images/carousel-background.png") !important;
     background-position: center;
+    height: 43vh;
     border-radius: 20px !important;
     padding: 0% 5% 1% 7% !important;
 }
@@ -98,8 +98,7 @@
 
 .container2 .ant-card-body {
     display: grid !important;
-    grid-template-rows: 0% 90% 10% 0%;
-    height: 40vh;
+    grid-template-rows: 0% 110% 10% 0%;
     padding: 6% 0% !important;
     justify-content: space-between !important;
     color: #fff;
@@ -116,7 +115,7 @@
 
 .ant-tabs-tab {
     font-family: Arial;
-    font-size: 1.2rem;
+    font-size: 1vw !important;
     font-weight: 700;
     text-align: left;
     text-decoration-style: solid;
@@ -128,6 +127,7 @@
 .ant-tabs-tab-active .ant-tabs-tab-btn {
     color: #fff !important;
     font-weight: bold;
+    font-size: 1vw !important;
 }
 
 .ant-tabs-ink-bar {
@@ -149,11 +149,13 @@
     content: "•";
     color: #e74860;
     margin-right: 8px;
+    font-size: 1vw !important;
 }
 
 .ant-tabs-tab-btn::before {
     content: "•";
     color: #ffffff7e;
+    font-size: 1vw !important;
     margin-right: 8px;
 }
 
@@ -162,40 +164,73 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .navButton.ant-btn-primary {
+        padding: 1vh 1vw !important;
+    }
+
+    .readMore.ant-btn-primary {
+        padding: 1vh 2vw !important;
+    }
+
+    .ant-carousel .slick-dots li button {
+        width: 1.3vw !important;
+        height: 1vh !important;
+        border-radius: 50% !important;
+    }
+
     .container1 .ant-carousel .slick-dots {
-        bottom: 9% !important;
+        bottom: 12% !important;
         left: 7% !important;
-        display: flex !important;
-        justify-content: flex-start !important;
+    }
+
+    .c2Card.ant-card {
+        height: 25vh;
+    }
+
+    .c4Card.ant-card {
+        height: 45vh;
     }
 
     .container2 .ant-card-body {
-        height: 25vh;
+        grid-template-rows: 0 60% 10% 0 !important;
         padding: 12% 5% !important;
         color: #fff;
     }
 
-    .customer.ant-btn-primary {
-        width: 30% !important;
-        margin-top: 5%;
-    }
-
-    .ant-card-body {
-        height: 26vh;
-    }
-
     .demo.ant-btn-primary {
         width: 32% !important;
+        padding: 1.5vh 3vh !important;
     }
 
     .mobileMenuButton {
         color: #fff !important;
     }
+
+    .customer.ant-btn-primary {
+        width: 18% !important;
+        padding: 1.5vh 3vh !important;
+        margin-top: 3%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+    .ant-btn {
+        height: 2vh !important;
+    }
+
     .readMore.ant-btn-primary {
-        padding: 1% 10px !important;
+        padding: 0.1vh 3vw !important;
+        font-size: 1.1vw;
+    }
+
+    .ant-carousel .slick-dots li button {
+        width: 1.5vw !important;
+        height: 0.7vh !important;
+        border-radius: 50% !important;
+    }
+
+    .ant-carousel .slick-dots li {
+        margin: 0 0.1vw !important;
     }
 
     .container2 .ant-card-body {
@@ -216,6 +251,7 @@
 
     .c4Card.ant-card {
         margin-bottom: 5%;
+        height: 40vh;
     }
 
     .ant-card-body {
@@ -223,17 +259,17 @@
     }
 
     .customer.ant-btn-primary {
-        width: 65% !important;
+        width: 50% !important;
         margin-top: 2%;
     }
 
     .container5 .ant-carousel .slick-dots {
-        bottom: -4%;
-        left: 32%;
+        bottom: -14%;
+        left: 40%;
     }
 
     .container7 .ant-carousel .slick-dots {
         bottom: -5% !important;
-        left: 30% !important;
+        left: 38% !important;
     }
 }

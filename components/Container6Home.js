@@ -70,12 +70,6 @@ export default function Container6Home() {
                     />
                 </div>
             </div>
-            {/* <Image
-                src="/images/companies-c6.png"
-                height={100}
-                width={1518}
-                alt="companies"
-            /> */}
         </>
     );
 }
